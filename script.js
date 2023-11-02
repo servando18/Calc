@@ -3,6 +3,32 @@ class Calculator {
         this.previousOperandTextElement = previousOperandTextElement
         this.currentOperandTextElement = currentOperandTextElement
     }
+
+    clear() {
+        this.currentOperand = ''
+        this.previousOperand = ''
+        this.operation = undefined
+    }
+
+    delete() {
+
+    }
+    
+    appendNumber() (
+
+    )
+
+    chooseOperation(operation) {
+
+    }
+
+    getComputedStyle() {
+
+    }
+
+    updateDisplay() {
+
+    }
 }
 
 
